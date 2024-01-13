@@ -8,16 +8,20 @@
   padding-left: 50px;
   padding-right: 50px;
   margin-bottom: 50px;
+  padding-top: 20px;
   background-color: #e3e7e8;
 }
 
 .sneaker-item {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   background-color: white;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
+  padding-top: 5px;
   padding-bottom: 5px;
+  height: 420px;
 }
 
 .sneaker-title {
@@ -34,7 +38,7 @@
 }
 
 .sneaker-item:hover img {
-  transform: scale(1.2); /* Bạn có thể điều chỉnh mức độ phóng to tùy ý */
+  transform: scale(1.1); /* Bạn có thể điều chỉnh mức độ phóng to tùy ý */
 }
 
 /* Thêm một hiệu ứng đơn giản cho nút khi di chuột vào */
