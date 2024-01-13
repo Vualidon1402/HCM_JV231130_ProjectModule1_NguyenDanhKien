@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/lelinh014756/fui-toast-js@master/assets/css/toast@1.0.1/fuiToast.min.css">
+
+    <link rel="stylesheet" href="./sass/main.css" />
+    <title>Trang chủ</title>
+  </head>
+  <body>
+    <div id="fui-toast"></div>
+    <div id="root">
+      <div class="body">
+        <section class="slide">
+          <div class="slide-container">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="1"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="2"
+                ></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    style="object-fit: fill"
+                    class="d-block w-100"
+                    src="./assets/img/slide/NIKE AIRFFORCE 1.jpg"
+                    alt="First slide"
+                  />
+                  <div class="text-nikeAirForce">NIKE AIR FORCE 1</div>
+                  <button class="nikePremebtn" type="button">Buy Now</button>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="./assets/img/slide/nikeTravis.jpeg"
+                    alt="Second slide"
+                  />
+                  <div class="text-nikeTravis">
+                    Nike Travis Scott x Air Jordan 1 Low version Golf
+                  </div>
+                  <button class="btnnikeTravis" type="button">
+                    Xem chi tiết
+                  </button>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="./assets/img/slide/nikeDunk.jpg"
+                    alt="Third slide"
+                  />
+                  <div class="text-nikeDunk">
+                    NIKE DUNK HIGH SB PREMIUM HEMP “WAFFLE”
+                  </div>
+                  <button class="nikeDunkbtn">Liên hệ</button>
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </section>
+        <hr />
+        <section class="welfare">
+          <div class="container">
+            <div class="welfare-container">
+              <div class="auth">
+                <i class="fa-solid fa-shield-halved"></i>
+                <h3 class="title-welfare">CAM KẾT CHÍNH HÃNG</h3>
+                <p class="text-welfare">100% Authentic</p>
+                <p class="text1-welfare">
+                  Cam kết sản phẩm chính hãng từ Châu Âu, Châu Mỹ...
+                </p>
+              </div>
+              <div class="contact">
+                <i class="fa-solid fa-phone"></i>
+                <h3 class="title-welfare">HỖ TRỢ 24/24</h3>
+                <p class="text-welfare">Supporting 24/24</p>
+                <p class="text1-welfare">Gọi ngay 0904533965</p>
+              </div>
+              <div class="express">
+                <i class="fa-solid fa-truck-fast"></i>
+                <h3 class="title-welfare">GIAO HÀNG HỎA TỐC</h3>
+                <p class="text-welfare">Express delivery</p>
+                <p class="text1-welfare">
+                  SHIP hỏa tốc 1h nhận hàng trong nội thành HCM
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr />
+        <!-- <section class="learnonshop">
+          <div class="container">
+            <div class="learnonshop-container">
+              <h4 class="title-learnonshop">LEARN ON SHOP</h4>
+              <div class="learnonshop-list">
+                <div class="learnonshop-item">
+                  <img src="assets/img/meo/4.jpg" alt="" />
+                </div>
+
+                <div class="learnonshop-item">
+                  <img src="assets/img/meo/1.jpg" alt="" />
+                </div>
+
+                <div class="learnonshop-item">
+                  <img src="assets/img/meo/meo1.jpg" alt="" />
+                </div>
+
+                <div class="learnonshop-item">
+                  <img src="assets/img/meo/2.jpg" alt="" />
+                </div>
+
+                <div class="learnonshop-item">
+                  <img src="assets/img/meo/3.jpg" alt="" />
+                </div>
+
+                <div class="learnonshop-item">
+                  <img src="assets/img/meo/meo2.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr /> -->
+        <section class="intro">
+          <!-- <div class="container"> -->
+            <div class="intro-container">
+              <h2 class="intro-title">Xu Hướng Thời Trang 2024</h2>
+              <div class="intro-list">
+                <a href="/notpage"><div class="intro-item">
+                  <img
+                    src="assets/img/intro/dunklowteamreddd13916019-5371.jpg"
+                    alt="dunklowteamred"
+                  />
+                  <div class="intro-text">
+                    <p style="text-align: center;"><i class="fa-solid fa-calendar-days"></i> 01/01/2024 Đăng bởi Kien2Hand</p>
+                    <h3 class="title-item-intro">
+                      Khám Phá Phong Cách Độc Đáo với Giày Nike Dunk Low “Team
+                      Red”
+                    </h3>
+                    <p>
+                      Khoác lên mình màu đỏ rượu vang đậm (Team Red), gợi nhớ
+                      đến hình bóng nguyên bản năm 1985 với hình dáng thuôn gọn
+                      và thương hiệu nổi tiếng thế giới. Phần trên hoàn toàn
+                      bằng da màu trắng (White) có các lỗ thoáng khí ở phần ngón
+                      chân, chi tiết có gân ở gót chân và dây buộc cùng tông màu
+                      đỏ đậm để tạo thêm điểm nhấn về phong cách. Dấu Swoosh của
+                      Nike nằm ở vị trí thông thường trên thành bên cho Dunk Low
+                      này, trong khi nhãn hiệu bổ sung được thêu ở gót chân và
+                      tab lưỡi, có một vị trí trong tủ quần áo của bạn khi đi
+                      làm.
+                    </p>
+                  </div>
+                </div></a>
+                <a href="/notpage"><div class="intro-item">
+                  <img
+                    src="./assets/img/intro/supremexairforce1lowboxlogobaroquebrowncu922520015-806.jpg"
+                    alt=""
+                  />
+                  <div class="intro-text">
+                    <p style="text-align: center;"><i class="fa-solid fa-calendar-days"></i> 01/01/2024 Đăng bởi Kien2Hand</p>
+                    <h3 class="title-item-intro">Bộ Sưu Tập Box Logo: Supreme x Nike Air Force 1</h3>
+                    <p>
+                      Supreme x Nike Air Force 1 Low Box Logo Baroque Brown
+                      <br />
+                      Supreme x Nike Air Force 1 Low Box Logo White <br />
+                      Supreme x Nike Air Force 1 Low Box Logo Black <br />
+                      Supreme x Nike Air Force 1 Low Box Logo Wheat
+                    </p>
+                  </div>
+                </div></a>
+                <a href="/notpage"><div class="intro-item">
+                  <img
+                    src="assets/img/intro/dunklowvalentinesday20249-3537.jpg"
+                    alt="dunklowvalentinesday"
+                  />
+                  <div class="intro-text">
+                    <p style="text-align: center;"><i class="fa-solid fa-calendar-days"></i> 01/01/2024 Đăng bởi Kien2Hand</p>
+                    <h3 class="title-item-intro">
+                      Cái nhìn về Dunk Low trong ngày lễ tình nhân của Nike
+                    </h3>
+                    <p>
+                      Dunk Low Valentines Day 2024 là biểu tượng của tình yêu và
+                      sự sáng tạo. Thiết kế tinh tế kết hợp cùng những chi tiết
+                      độc đáo tạo nên một kiệt tác nghệ thuật trên đôi chân với
+                      sắc màu cánh buồm (Sail), màu hồng (Pink) và màu đỏ (Team
+                      Red) thể hiện hoàn hảo tinh thần của tình yêu và sự lãng
+                      mạn.
+                    </p>
+                  </div>
+                </div></a>
+                
+              </div>
+              <hr />
+            </div>
+          </div>
+        </section>
+        <section class="fixback">
+          <div class="container">
+            <div class="fixback-container">
+              <h4 class="fixback-title">
+                Check in tại shop hưởng nhiều ưu đãi giá trị
+                <i style="color: red" class="fa-solid fa-fire-flame-curved">
+                </i>
+                <i style="color: red" class="fa-solid fa-fire-flame-curved">
+                </i>
+                <i style="color: red" class="fa-solid fa-fire-flame-curved"></i>
+              </h4>
+              <div class="fixback-item">
+                <img src="assets/img/fixback/kingshoesvnn.jpg" alt="1" />
+                <img
+                  src="assets/img/fixback/king-shoes-sneaker-cua-hang-giay-adidas-nike-chinh-hang-hcm-6.jpg"
+                  alt="2"
+                />
+                <img
+                  src="assets/img/fixback/king-shoes-sneaker-1595828870--phbscipa.jpg"
+                  alt="3"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+    <script src="./home.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/lelinh014756/fui-toast-js@master/assets/js/toast@1.0.1/fuiToast.min.js"></script>
+
+  </body>
+</html>

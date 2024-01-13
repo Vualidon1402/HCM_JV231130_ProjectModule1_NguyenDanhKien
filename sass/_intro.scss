@@ -1,0 +1,44 @@
+.intro-item {
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+  height: 700px;
+  flex-direction: column;
+  width: 500px;
+}
+.intro-item img {
+  object-fit: cover;
+  height: 400px;
+  width: 500px;
+}
+
+.intro-title {
+  margin-bottom: 30px;
+}
+.intro-list {
+  display: flex;
+  justify-content: space-around;
+}
+.title-item-intro {
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+}
+
+.intro.text {
+  color: black;
+  text-decoration: none;
+}
+.intro.text :hover {
+  text-decoration: none;
+}
+.intro-text p {
+  color: gray;
+}
+a {
+  text-decoration: none; /* Loại bỏ gạch chân mặc định */
+}
+
+a:hover {
+  text-decoration: none; /* Loại bỏ gạch chân khi di chuột vào */
+}

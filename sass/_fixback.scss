@@ -1,0 +1,16 @@
+.fixback-item {
+  display: flex;
+  justify-content: space-between;
+  img {
+    object-fit: cover;
+    width: 350px;
+  }
+}
+.fixback-container {
+  margin-bottom: 100px;
+}
+
+.fixback-title {
+  margin-bottom: 20px;
+  text-align: center;
+}

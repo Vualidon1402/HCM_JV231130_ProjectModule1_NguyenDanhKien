@@ -1,0 +1,29 @@
+.welfare-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  background-color: rgb(78 222 235 / 23%);
+}
+.auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.express {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title-welfare {
+  color: rgb(255, 195, 0);
+  font-size: 30px;
+  font-weight: 600;
+}
+.text-welfare {
+  font-weight: 700;
+}

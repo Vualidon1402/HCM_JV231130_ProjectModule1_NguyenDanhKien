@@ -1,0 +1,492 @@
+@charset "UTF-8";
+body {
+  width: 1513px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+h2:hover {
+  color: rgb(18, 231, 28);
+}
+
+.header-menu-link {
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+  font-size: 20px;
+}
+
+.header-menu {
+  list-style: none;
+  padding-top: 10px;
+}
+
+.header-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(248, 246, 246, 0.8980392157);
+  padding-left: 20px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 100px;
+  font-size: 16px;
+}
+
+.header-authen {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+  padding-right: 10px;
+}
+.header-authen img {
+  width: 35px;
+  height: 35px;
+}
+
+.header-authen-signin {
+  text-decoration: none;
+  padding-top: 10px;
+  color: black;
+  font-size: 14px;
+}
+
+.header-authen-signup {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.header-menu-link:hover {
+  color: blue;
+}
+
+.text-medium {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.header-authen-shop {
+  padding-top: 10px;
+  color: red;
+}
+
+.header-container-search {
+  align-items: center;
+  align-content: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.header-container-search ::-moz-placeholder {
+  color: rgb(95, 94, 94);
+}
+
+.header-container-search ::placeholder {
+  color: rgb(95, 94, 94);
+}
+
+.header-container-search input {
+  background-color: white;
+  width: 500px;
+  height: 35px;
+  margin: 0;
+  padding-left: 30px;
+}
+
+.icon-search {
+  position: absolute;
+  left: 34%;
+  bottom: 10%;
+  color: red;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.footer-container {
+  height: 560px;
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.social {
+  display: flex;
+  justify-items: center;
+}
+
+.heading-small {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  list-style: none;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.end-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.money {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.carousel-item img {
+  height: 615px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.slide-container {
+  max-height: 700px;
+  overflow: hidden;
+  padding-top: 36px;
+}
+
+.carousel-itemactive {
+  position: relative;
+}
+
+.nikePremebtn {
+  position: absolute;
+  bottom: 4%;
+  right: 18.5%;
+  color: rgb(250, 246, 246);
+  background-color: rgb(255, 0, 0);
+  font-size: 25px;
+  font-weight: 700;
+  padding: 10px auto;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+}
+
+.nikePremebtn:hover {
+  background-color: greenyellow;
+  color: black;
+}
+
+.text-nikeAirForce {
+  position: absolute;
+  top: 2%;
+  left: 16%;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.text-nikeTravis {
+  position: absolute;
+  top: 2%;
+  color: rgb(9, 9, 49);
+  font-size: 25px;
+  font-weight: 700;
+  left: 10px;
+}
+
+.btnnikeTravis {
+  position: absolute;
+  bottom: 2%;
+  left: 16%;
+  color: rgb(243, 239, 239);
+  background-color: rgba(2, 20, 2, 0.596);
+  font-size: 25px;
+  font-weight: 700;
+  padding: 10px auto;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+}
+
+.btnnikeTravis:hover {
+  background-color: orange;
+  color: black;
+}
+
+.text-nikeDunk {
+  position: absolute;
+  top: 2%;
+  color: rgb(252, 165, 3);
+  font-size: 25px;
+  font-weight: 700;
+  left: 10px;
+}
+
+.nikeDunkbtn {
+  position: absolute;
+  bottom: 2%;
+  color: rgb(243, 239, 239);
+  background-color: rgba(2, 20, 2, 0.596);
+  font-size: 25px;
+  font-weight: 700;
+  padding: 10px auto;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  left: 16%;
+}
+
+.nikeDunkbtn:hover {
+  background-color: burlywood;
+  color: red;
+}
+
+.intro-item {
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+  height: 700px;
+  flex-direction: column;
+  width: 500px;
+}
+
+.intro-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 400px;
+  width: 500px;
+}
+
+.intro-title {
+  margin-bottom: 30px;
+}
+
+.intro-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title-item-intro {
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+}
+
+.intro.text {
+  color: black;
+  text-decoration: none;
+}
+
+.intro.text :hover {
+  text-decoration: none;
+}
+
+.intro-text p {
+  color: gray;
+}
+
+a {
+  text-decoration: none; /* Loại bỏ gạch chân mặc định */
+}
+
+a:hover {
+  text-decoration: none; /* Loại bỏ gạch chân khi di chuột vào */
+}
+
+.welfare-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  background-color: rgba(78, 222, 235, 0.23);
+}
+
+.auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.express {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-welfare {
+  color: rgb(255, 195, 0);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.text-welfare {
+  font-weight: 700;
+}
+
+.learnonshop-list {
+  display: grid;
+  grid-template-areas: "h1 h1 h2 h3" "h4 h5 h2 h3" "h4 h5 h6 h6";
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 230px 100px 230px;
+  gap: 20px;
+}
+.learnonshop-list img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.learnonshop-item:nth-child(1) {
+  grid-area: h1;
+}
+
+.learnonshop-item:nth-child(2) {
+  grid-area: h2;
+}
+
+.learnonshop-item:nth-child(3) {
+  grid-area: h3;
+}
+
+.learnonshop-item:nth-child(4) {
+  grid-area: h4;
+}
+
+.learnonshop-item:nth-child(5) {
+  grid-area: h5;
+}
+
+.learnonshop-item:nth-child(6) {
+  grid-area: h6;
+}
+
+.title-learnonshop {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.fixback-item {
+  display: flex;
+  justify-content: space-between;
+}
+.fixback-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 350px;
+}
+
+.fixback-container {
+  margin-bottom: 100px;
+}
+
+.fixback-title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#root header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 56px;
+}
+#root .body {
+  min-height: calc(100vh - 266px);
+}
+#root footer {
+  height: 420px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}/*# sourceMappingURL=main.css.map */

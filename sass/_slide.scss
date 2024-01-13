@@ -1,0 +1,91 @@
+.carousel-item img {
+  height: 615px;
+  object-fit: fill;
+}
+
+.slide-container {
+  max-height: 700px;
+  overflow: hidden;
+  padding-top: 36px;
+}
+.carousel-itemactive {
+  position: relative;
+}
+
+.nikePremebtn {
+  position: absolute;
+  bottom: 4%;
+  right: 18.5%;
+  color: rgb(250, 246, 246);
+  background-color: rgb(255, 0, 0);
+  font-size: 25px;
+  font-weight: 700;
+  padding: 10px auto;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+}
+.nikePremebtn:hover {
+  background-color: greenyellow;
+  color: black;
+}
+.text-nikeAirForce {
+  position: absolute;
+  top: 2%;
+  left: 16%;
+  font-size: 25px;
+  font-weight: 700;
+}
+.carousel-item {
+  position: relative;
+}
+.text-nikeTravis {
+  position: absolute;
+  top: 2%;
+  color: rgb(9, 9, 49);
+  font-size: 25px;
+  font-weight: 700;
+  left: 10px;
+}
+.btnnikeTravis {
+  position: absolute;
+  bottom: 2%;
+  left: 16%;
+  color: rgb(243, 239, 239);
+  background-color: rgba(2, 20, 2, 0.596);
+  font-size: 25px;
+  font-weight: 700;
+  padding: 10px auto;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+}
+.btnnikeTravis:hover {
+  background-color: orange;
+  color: black;
+}
+.text-nikeDunk {
+  position: absolute;
+  top: 2%;
+  color: rgb(252, 165, 3);
+  font-size: 25px;
+  font-weight: 700;
+  left: 10px;
+}
+.nikeDunkbtn {
+  position: absolute;
+  bottom: 2%;
+  color: rgb(243, 239, 239);
+  background-color: rgba(2, 20, 2, 0.596);
+  font-size: 25px;
+  font-weight: 700;
+  padding: 10px auto;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  left: 16%;
+}
+.nikeDunkbtn:hover {
+  background-color: burlywood;
+  color: red;
+}
